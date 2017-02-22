@@ -1,0 +1,10 @@
+ALARM_DIR=/home/weblog/monitorfile
+HADOOP_HOME=/home/weblog/hadoop
+HADOOP_CONF_DIR=${HADOOP_HOME}/etc/hadoop/
+HADOOP=${HADOOP_HOME}/bin/hadoop
+
+LOCAL_BASE_DIR=/home/weblog/portalUserAnalysis
+JAR=${LOCAL_BASE_DIR}/portalUserAnalysis/portalUserAnalysis-0.1.0-jar-with-dependencies.jar
+RUN_DIR=${LOCAL_BASE_DIR}/portalUserAnalysis/run
+WORDSEGMENT_LIB_DIR=${LOCAL_BASE_DIR}/lib/wordsegment
+TAG_Dir=${LOCAL_BASE_DIR}/portalUserAnalysisTag
